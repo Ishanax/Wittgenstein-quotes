@@ -2,7 +2,12 @@
   min-height: 100vh;
 }
 body {
-  background: #f8edeb !important;
+  background-image: url("./mountain.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #f8edeb;
 }
 
 h1 {
@@ -13,7 +18,7 @@ h1 {
   margin-bottom: 50px !important;
 }
 .quote-container {
-  background: #ece4db;
+  background: #ece4db67;
 }
 
 img {
